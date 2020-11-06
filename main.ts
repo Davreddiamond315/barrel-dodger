@@ -57,6 +57,6 @@ game.onUpdateInterval(1500, function () {
         4 4 4 4 4 4 4 4 
         1 4 4 4 4 4 4 1 
         `, randint(-150, -30), 0)
-    info.changeScoreBy(1)
+    info.changeScoreBy(10)
     tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
 })
